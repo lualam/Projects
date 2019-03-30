@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Demo</string>
+
+    <string name="title_activity_signup">signup</string>
+    <string name="title_activity_home">home</string>
+    <string-array name="blood types">
+        <item>O+</item>
+        <item>O-</item>
+        <item>A+</item>
+        <item>A-</item>
+        <item>B+</item>
+        <item>B-</item>
+        <item>AB+</item>
+        <item>AB-</item>
+    </string-array>
+</resources>
