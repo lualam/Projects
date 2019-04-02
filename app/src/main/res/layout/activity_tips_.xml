@@ -5,27 +5,25 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/background"
-    tools:context=".tips_Activity">
+    tools:context=".TipsActivity">
 
     <TextView
         android:id="@+id/textView6"
-        android:layout_width="154dp"
-        android:layout_height="42dp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
-        android:layout_marginBottom="8dp"
+        android:gravity="center"
         android:text="Tips"
         android:textColor="#ffffff"
         android:textSize="30dp"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.701"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.252" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
     <TextView
         android:id="@+id/textView8"
@@ -37,26 +35,15 @@
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginBottom="8dp"
-        android:text="Spare any blood!!
-Sure you can!
-
-1. Eat an healthy and light weigh meal.
-2. Drink plenty of water( or nonalcoholic drink) before and after donate.
-3. Wear loose sleeves.
-4. Avoid any heavy exercises or lifting the day of your donation.
-5. Get a good night's sleep of between 7 to 9 hours sleep.
-
-            Give blood today!!
-            We know you got it in you!!!"
+        android:text="Spare any blood!! Sure you can!\n\n1. Eat an healthy and light weigh meal.\n2. Drink plenty of water( or nonalcoholic drink) before and after donate.\n3. Wear loose sleeves.\n4. Avoid any heavy exercises or lifting the day of your donation.\n5. Get a good night's sleep of between 7 to 9 hours sleep.\n\nGive blood today!! We know you got it in you!!!"
         android:textColor="#ffffff"
-        android:textSize="20dp"
 
+        android:textSize="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.491"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView"
-        app:layout_constraintVertical_bias="0.636" />
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
 
     <ImageView
         android:id="@+id/imageView"
@@ -64,10 +51,9 @@ Sure you can!
         android:layout_height="105dp"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
-        android:layout_marginTop="16dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
-        android:layout_marginBottom="124dp"
+        android:layout_marginBottom="16dp"
         app:layout_constraintBottom_toTopOf="@+id/textView8"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"

@@ -1,9 +1,9 @@
 <resources>
-    <string name="app_name">Demo</string>
+    <string name="app_name">Blood Donation</string>
 
     <string name="title_activity_signup">signup</string>
     <string name="title_activity_home">home</string>
-    <string-array name="blood types">
+    <string-array name="bloodtypes">
         <item>O+</item>
         <item>O-</item>
         <item>A+</item>
